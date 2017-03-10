@@ -21,7 +21,7 @@
         } else {
           var count = splitString($scope.content, comma);
           if (count > 3) {
-            $scope.message = "Too much!.";
+            $scope.message = "Too much!";
           } else {
             $scope.message = "Enjoy!";
           }
